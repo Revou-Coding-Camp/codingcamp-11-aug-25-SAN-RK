@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Company Logo</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Our Profile</a></li>
+                <li><a href="#contact">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1 id="welcome-text">Hi, Welcome to Website</h1>
+    </section>
+
+    <section class="our-headquarter">
+        <h2>Our Headquarter</h2>
+        <div class="circles">
+            <div class="circle">Jakarta</div>
+            <div class="circle">Bandung</div>
+            <div class="circle">Surabaya</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Message Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="tel" id="phone" placeholder="Phone Number">
+            <textarea id="message" placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="formResult"></div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
