@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+.navbar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.menu {
+    display: flex;
+    gap: 10px;
+}
+.menu button {
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+label {
+    margin-top: 10px;
+}
+input, textarea {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+textarea {
+    resize: none;
+    height: 80px;
+}
+.submit-btn {
+    margin-top: 15px;
+    padding: 8px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background: #f2f2f2;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+.delete-btn {
+    cursor: pointer;
+    color: red;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: gray;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <img src="https://via.placeholder.com/40" alt="Simple placeholder logo in a square format with gray background, no text, neutral tone, located in the website navigation bar">
+        <div class="menu">
+            <button>Home</button>
+            <button>My Profile</button>
+            <button>Portfolio</button>
+            <button>Message Us</button>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+        <!-- Form -->
+        <form id="dataForm">
+            <h3>Form Belajar</h3>
+            <p>Ini adalah website latihan pertama</p>
+
+            <label>Nama</label>
+            <input type="text" id="nama" required>
+
+            <label>Tanggal Lahir</label>
+            <input type="date" id="tgl" required>
+
+            <label>Jenis Kelamin :</label>
+            <input type="radio" name="jk" value="Laki-Laki" required> Laki-Laki
+            <input type="radio" name="jk" value="Perempuan" required> Perempuan
+
+            <label>Pesan</label>
+            <textarea id="pesan" required></textarea>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+
+        <!-- Table -->
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Pesan</th>
+                    <th>Profile</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Melati</td>
+                    <td>December 10, 1815</td>
+                    <td>Perempuan</td>
+                    <td>Belajar Buat Website</td>
+                    <td><a href="#">Klik Disini</a></td>
+                    <td class="delete-btn" onclick="deleteRow(this)">🗑️</td>
+                </tr>
+                <tr>
+                    <td>Ter Stenggen</td>
+                    <td>December 9, 1906</td>
+                    <td>Perempuan</td>
+                    <td>Hello World</td>
+                    <td><a href="#">Klik Disini</a></td>
+                    <td class="delete-btn" onclick="deleteRow(this)">🗑️</td>
+                </tr>
+                <tr>
+                    <td>putri</td>
+                    <td>August 17, 1936</td>
+                    <td>Perempuan</td>
+                    <td>Test Dulu</td>
+                    <td><a href="#">Klik Disini</a></td>
+                    <td class="delete-btn" onclick="deleteRow(this)">🗑️</td>
+                </tr>
+                <tr>
+                    <td>lienol odado </td>
+                    <td>June 24, 1917</td>
+                    <td>Laki-Laki</td>
+                    <td>Selalu Semangat</td>
+                    <td><a href="#">Klik Disini</a></td>
+                    <td class="delete-btn" onclick="deleteRow(this)">🗑️</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Created By Riko
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
